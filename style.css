@@ -1,0 +1,157 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #05001f;
+  color: white;
+  height: 100vh;
+}
+
+.container {
+  width: 405.34px;
+  height: 521.37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: relative;
+  border-radius: 8px;
+}
+
+.card {
+  position: relative;
+  backdrop-filter: blur(15px);
+  width: 368.16px;
+  height: 484.18px;
+  border-radius: 8px;
+  border: 0.74px solid rgba(104, 103, 103, 0.2);
+}
+.content {
+  padding: 0 20px;
+}
+.text {
+  display: flex;
+  gap: 222px;
+  align-items: center;
+}
+
+.beginner {
+  width: 80px;
+  height: 16px;
+  font-family: Montserrat;
+  font-size: 16.66px;
+  font-weight: 500;
+  line-height: 15.62px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(255, 209, 71, 1);
+}
+.beginner-p {
+  background: rgba(241, 198, 68, 0.24);
+  padding: 5px;
+  border-radius: 8px;
+}
+.icon {
+  width: 16.84px;
+  height: 14.94px;
+}
+.course {
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 17.85px;
+  font-weight: 700;
+  line-height: 22.31px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  margin-top: 0;
+}
+.made-by {
+  font-family: Montserrat;
+  font-size: 11.9px;
+  font-weight: 500;
+  line-height: 11.16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.rate {
+  color: rgba(241, 198, 68, 1);
+  font-family: Montserrat;
+  font-size: 14.88px;
+  font-weight: 400;
+  line-height: 11.16px;
+  text-align: left;
+}
+.number {
+  font-family: Montserrat;
+  font-size: 13.39px;
+  font-weight: 400;
+  line-height: 11.16px;
+  text-align: left;
+  color: rgba(219, 219, 219, 1);
+}
+hr {
+  margin-top: 20px;
+  opacity: 0.2;
+}
+.enroll {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.card:hover {
+  box-shadow: 0px 2.97px 17.85px -0.74px rgba(255, 248, 248, 0.557);
+  transition: all 0.3s ease-in-out;
+}
+.circle {
+  border-radius: 100%;
+  position: absolute;
+}
+
+.circle-1 {
+  top: -64px;
+  left: -60px;
+  background-image: radial-gradient(
+    69.62% 69.62% at 50% 50%,
+    #ea8bfa 0%,
+    #7526f5 100%
+  );
+  opacity: 0.8;
+  height: 138px;
+  width: 138px;
+}
+
+.circle-2 {
+  opacity: 0.8;
+  top: -123px;
+  left: 341px;
+  height: 329px;
+  width: 329px;
+  background-image: radial-gradient(
+    63.62% 63.62% at 50% 50%,
+    #ff00c7 0%,
+    #bd95ff 0.01%,
+    #a661ff 32.29%,
+    #6100ff 98.59%
+  );
+}
+
+.circle-3 {
+  height: 230px;
+  opacity: 0.8;
+  width: 230px;
+  background-image: radial-gradient(
+    67.47% 67.47% at 50% 50%,
+    #fed0ff 0%,
+    #7f00ff 100%
+  );
+
+  bottom: -93px;
+  left: -95px;
+}
